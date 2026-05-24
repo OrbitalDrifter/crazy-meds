@@ -1,7 +1,7 @@
 # CrazyMeds
 
 Psychiatric medication reference for the educated consumer.  
-Written and maintained by Jerod Poore.
+Written by Jerod Poore.
 
 ---
 
