@@ -491,9 +491,14 @@ const ARTICLES = [
   {id:"meds-fewer-side-effects",title:"Meds with Fewer Side Effects than Most",subtitle:"The ones that will not make you fat, bald, or asexual",
    sections:[
     {h:null,b:"I want a drug that works with no side effects! And I want a woman as horny as I am, who cooks as well as I used to, with a nice ass, an equally nice trust fund, and whose main mission in life is making me happy. You will probably get a wedding invitation from me before you get a perfect drug."},
-    {h:"Five Meds That Rarely Cause Weight Gain and Sexual Dysfunction",b:"Geodon (ziprasidone): of all antipsychotics, least likely to cause metabolic problems. Wellbutrin (bupropion): the skinny, sexy, happy drug. Lamictal (lamotrigine): hair thinning is uncommon rather than rare, and it might make you hornier. Keppra (levetiracetam): super-low side effect profile. Neurontin (gabapentin): really low side effects, but mostly useful for neuropathic pain."},
-    {h:"What About Natural Things?",b:"Haven't you learned yet that nature is always trying to kill us? Anything that works will have potential side effects. Omega-3 fish oil has a PI sheet full of side effects including fecal incontinence and, my favorite freaky rare side effect: sudden death. St. John's Wort works as well as Zoloft in properly controlled studies, and has just as many side effects."},
-    {h:"Recommendations by Condition",b:"Depression: Wellbutrin. Bipolar: Geodon and/or Lamictal, especially for bipolar 2. Panic/Anxiety: BuSpar (low efficacy but near-zero side effects) or a benzodiazepine. Epilepsy: Lamictal or Keppra. Neuropathic Pain: Neurontin. Schizophrenia: Geodon, or seriously, good old-fashioned Thorazine or Haldol at low-to-medium dosages. Their bad reputation comes from high doses."},
+    {h:"Will You Settle for Two and a Half Out of Three?",b:"There are five meds that rarely cause weight gain and sexual dysfunction. Hair loss and thinning is rare with four of them and uncommon with the third. Of course they may be totally inappropriate for you, and their other side effects can even be worse than weight gain, hair loss, and sexual dysfunction combined. But here they are. Geodon/Zeldox (ziprasidone): of all the antipsychotics, Geodon seems to be the least likely to cause weight gain and metabolic problems. Wellbutrin (bupropion): an antidepressant also used for smoking cessation under the trade name Zyban. It has a reputation as the skinny, sexy, happy drug. Lamictal (lamotrigine): an AED used mostly as a mood stabilizer for bipolar disorder. This is the one where hair thinning and loss is uncommon instead of rare. Lamictal comes with a shitload of other side effects you may not like, and while it probably will not make you thinner, weight gain is uncommon. Bonus: like Wellbutrin, Lamictal might make you hornier. Keppra (levetiracetam): an AED used to treat epilepsy. Not as effective as Lamictal unless you have one of the oddball forms of epilepsy, but it has a super-low side effect profile and hardly any drug-drug interactions. Neurontin (gabapentin): another AED with really low side effects, mostly used to treat neuropathy and other pain-related conditions."},
+    {h:"What About Those Natural Things?",b:"Haven't you learned yet that nature is always trying to kill us? The outside is full of poisonous plants, fungi, and critters. Anything that works will have potential side effects. Anything with no side effects does nothing beyond the placebo effect. Omega-3 fish oils are proven to work for high triglycerides, and there is a PI sheet full of side effects that map nicely to side effects reported by people taking fish oil for unipolar or bipolar depression: eructation (the fish burps everyone writes about), taste perversion, all sorts of GI problems, fecal incontinence just like Alli/orlistat, and one of my favorite freaky rare side effects: sudden death. In all fairness to the fish oil, which I take myself, any death was probably due to an allergic reaction. St. John's Wort: pharmaceutical-grade Hypericum extract works as well as Zoloft in properly controlled studies, and has just as many side effects. Even the extract you can get at a supplement shop causes photosensitivity, really messes with hormonal birth control, and has all sorts of drug-drug interactions. Acupuncture: for migraines and neuropathic pain, but not psychiatric disorders. While the data are somewhat mixed, acupuncture seems to work more often than not in large, controlled studies."},
+    {h:"Depression",b:"As mentioned above: Wellbutrin."},
+    {h:"Bipolar Disorder",b:"It is a twofer: Geodon and Lamictal, either individually or together. Lamictal is especially effective for bipolar 2, and that cocktail would be really effective for bipolar 2. The only downside to using Lamictal to treat bipolar disorder is that you need to be stable first. Or at least really fucking depressed for a long-ass time. Otherwise you will just get hypomanic-to-manic and/or start cycling. The Lamictal and Wellbutrin cocktail is also popular for bipolar 2."},
+    {h:"Panic and Anxiety",b:"BuSpar. It does not have the best efficacy rate around. If it works for me that is probably a bad sign. But its side effect profile is pretty damn low. A benzodiazepine of some sort: other than the whole habit-forming aspect, benzos are fairly side-effect free. The discontinuation syndrome for benzos can be worse than for SSRIs, though far less likely to happen. The drowsiness usually goes away, which is why they are generally useless as long-term treatments for insomnia. Ativan (lorazepam) is an extremely low-key drug — great to use as needed. Klonopin (clonazepam) is a good choice for daily use. Xanax (alprazolam) is the most effective benzo for daily use but has the worst discontinuation syndrome of the bunch."},
+    {h:"Epilepsy",b:"Another twofer: Lamictal or Keppra. While approved only as an add-on, Keppra has had success treating difficult-to-treat forms of partial and generalized seizures when taken by itself. As with bipolar, Lamictal is better to take after another med gets your seizures under control."},
+    {h:"Neuropathic Pain",b:"Neurontin (gabapentin). While Lyrica (pregabalin) does not have the usual side effects people hate, it often makes people feel too stoned to do anything useful. Which may be more feature than bug for some."},
+    {h:"Schizophrenia",b:"Geodon. And good, old-fashioned Thorazine (chlorpromazine) and Haldol (haloperidol). No, really. Some of the older antipsychotics have a really bad reputation they do not deserve. At the low-to-medium range of their therapeutic dosages, Thorazine's and Haldol's side effects are not really all that bad. It is when you need much higher dosages that the second-generation APs like Geodon start looking a lot better."},
   ]},
   {id:"nsri",title:"Norepinephrine-Selective Reuptake Inhibitors (NSRIs)",subtitle:"The less-discussed antidepressant class",
    sections:[
@@ -506,7 +511,7 @@ const ARTICLES = [
     {h:"TCAs Covered Here",b:"Amitriptyline (Elavil), clomipramine (Anafranil), desipramine (Norpramin), doxepin, imipramine (Tofranil), nortriptyline (Pamelor), protriptyline (Vivactil), and trimipramine (Surmontil)."},
     {h:"Tetracyclics",b:"Tetracyclic antidepressants like Remeron (mirtazapine) and Asendin (amoxapine) are usually lumped in with TCAs even though they do not really work enough like TCAs to warrant that. Asendin is unofficially classified as an atypical antipsychotic by Stahl and other pharmacologists based on its efficacy in treating schizophrenia and mechanism of action. All it takes is one more to be approved in the US and they are getting their own Crazymeds class."},
   ]},
-  {id:"what-you-need",title:"What You Need to Know",subtitle:"Before and after starting any psychiatric or neurological medication - UNDER CONSTRUCTION",
+  {id:"what-you-need",title:"What You Need to Know",subtitle:"Before and after starting any psychiatric or neurological medication",
    sections:[
     {h:null,b:"When, preferably before, starting any medication to treat a neurological or psychiatric condition, here is everything you need to know. OK, it is far from everything. These are things that most, if not all, crazy meds have in common. It does not matter if you are obsessed or depressed, schizophrenic or epileptic, bipolar or a migraineur, all of the above or none of the above, whatever meds you are taking for whatever reason and condition. Here is the basic stuff everyone should know."},
     {h:"Before You Start",b:"Should you be taking meds in the first place? See the Should You Be Taking Meds article on this site — it includes the Am I That Messed Up? checklist. Tips on how to take psychiatric and neurological drugs: there is more to it than do not operate heavy machinery. Tips on how to stop taking them: you do not want to wind up crazier than you were to begin with. See the individual medication pages for discontinuation schedules."},
@@ -534,14 +539,14 @@ const s = {
   nav:{background:C.surface,borderBottom:`1px solid ${C.border}`,padding:"0 2rem",display:"flex",alignItems:"center",justifyContent:"space-between",position:"sticky",top:0,zIndex:100,gap:"1rem",flexWrap:"wrap"},
   logo:{fontFamily:"'Cormorant Garamond',Georgia,serif",fontWeight:700,fontSize:"1.5rem",color:C.accent,cursor:"pointer",letterSpacing:"-0.02em",padding:"1rem 0"},
   navLinks:{display:"flex",gap:"0.25rem",flexWrap:"wrap"},
-  hero:{padding:"5rem 2rem 4rem",maxWidth:900,margin:"0 auto",textAlign:"center"},
+  hero:{padding:"3rem max(1rem,2vw) 2.5rem",maxWidth:900,margin:"0 auto",textAlign:"center"},
   eyebrow:{color:C.accent,fontSize:"0.75rem",fontWeight:600,letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:"1rem"},
   heroTitle:{fontFamily:"'Cormorant Garamond',Georgia,serif",fontWeight:700,fontSize:"clamp(2.5rem,6vw,4rem)",lineHeight:1.1,color:"#e8e4f0",marginBottom:"1.25rem"},
   heroSub:{fontSize:"1.1rem",color:C.muted,maxWidth:580,margin:"0 auto 2.5rem",lineHeight:1.7},
   searchWrap:{position:"relative",maxWidth:520,margin:"0 auto"},
   searchInput:{width:"100%",padding:"0.875rem 1.25rem 0.875rem 3rem",background:C.surface,border:`1px solid ${C.border}`,borderRadius:10,color:C.text,fontSize:"1rem",outline:"none",boxSizing:"border-box"},
   searchIcon:{position:"absolute",left:"1rem",top:"50%",transform:"translateY(-50%)",color:C.muted,pointerEvents:"none",fontSize:"1.1rem"},
-  section:{maxWidth:1100,margin:"0 auto",padding:"3rem 2rem"},
+  section:{maxWidth:1100,margin:"0 auto",padding:"3rem max(1rem, 2vw)"},
   sTitle:{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:"1.5rem",fontWeight:600,color:"#e8e4f0",marginBottom:"0.5rem"},
   sSub:{color:C.muted,fontSize:"0.9rem",marginBottom:"2rem"},
   grid:{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(280px,1fr))",gap:"1rem"},
@@ -552,7 +557,7 @@ const s = {
   tag:(cls)=>{const t=CT[cls]||CT["Antidepressant"];return{background:t.bg,color:t.color,border:`1px solid ${t.border}`,borderRadius:20,padding:"0.25rem 0.75rem",fontSize:"0.7rem",fontWeight:500}},
   filterBar:{display:"flex",gap:"0.5rem",flexWrap:"wrap",marginBottom:"2rem"},
   filterBtn:(a)=>({padding:"0.4rem 1rem",borderRadius:20,fontSize:"0.8rem",cursor:"pointer",border:`1px solid ${a?C.accent:C.border}`,background:a?C.accentBg:"transparent",color:a?C.accent:C.muted,transition:"all 0.15s"}),
-  detailWrap:{display:"grid",gridTemplateColumns:"220px 1fr",gap:"2rem",maxWidth:1100,margin:"0 auto",padding:"2.5rem 2rem",alignItems:"start"},
+  detailWrap:{display:"grid",gridTemplateColumns:"220px 1fr",gap:"2rem",maxWidth:1100,margin:"0 auto",padding:"2.5rem max(1rem,2vw)",alignItems:"start"},
   toc:{position:"sticky",top:72,background:C.surface,border:`1px solid ${C.border}`,borderRadius:10,padding:"1.25rem"},
   tocTitle:{color:C.muted,fontSize:"0.7rem",fontWeight:600,letterSpacing:"0.1em",textTransform:"uppercase",marginBottom:"0.875rem"},
   tocBtn:{display:"block",color:C.muted,fontSize:"0.825rem",padding:"0.3rem 0.5rem",borderRadius:4,cursor:"pointer",border:"none",background:"transparent",textAlign:"left",width:"100%"},
@@ -743,6 +748,12 @@ function MedIndexPage({setPage}){
 
 function MedDetailPage({id,setPage}){
   const med=MEDS.find(m=>m.id===id);
+  const [narrow,sN]=useState(typeof window!=="undefined"&&window.innerWidth<768);
+  useEffect(()=>{
+    const h=()=>sN(window.innerWidth<768);
+    window.addEventListener("resize",h);
+    return()=>window.removeEventListener("resize",h);
+  },[]);
   if(!med)return <div style={{padding:"2rem",color:C.muted}}>Medication not found.</div>;
   const toc=[
     {k:"approved",l:"Approved uses"},
@@ -758,13 +769,13 @@ function MedDetailPage({id,setPage}){
     med.comments&&{k:"comments",l:"Comments"},
   ].filter(Boolean);
   return(
-    <div style={s.detailWrap}>
+    <div style={{...s.detailWrap,gridTemplateColumns:narrow?"1fr":"220px 1fr"}}>
       <div>
         <button style={s.backBtn} onClick={()=>setPage({view:"meds"})}>← All meds</button>
-        <div style={s.toc}>
+        {!narrow&&<div style={s.toc}>
           <div style={s.tocTitle}>On this page</div>
           {toc.map(t=><button key={t.k} style={s.tocBtn} onClick={()=>document.getElementById(`sec-${t.k}`)?.scrollIntoView({behavior:"smooth",block:"start"})}>{t.l}</button>)}
-        </div>
+        </div>}
       </div>
       <div style={s.detailMain}>
         <div style={s.detailHdr}>
@@ -798,7 +809,7 @@ function MedDetailPage({id,setPage}){
         {(med.pros||med.cons)&&(
           <div id="sec-proscons">
             <div style={s.blockTitle}>Pros & Cons</div>
-            <div style={s.prosCons}>
+            <div style={{...s.prosCons,gridTemplateColumns:narrow?"1fr":"1fr 1fr"}}>
               {med.pros&&<div style={s.prosBox}><div style={s.prosTitle}>Pros</div><p style={{margin:0,color:C.text,fontSize:"0.9rem",lineHeight:1.7}}>{med.pros}</p></div>}
               {med.cons&&<div style={s.consBox}><div style={s.consTitle}>Cons</div><p style={{margin:0,color:C.text,fontSize:"0.9rem",lineHeight:1.7}}>{med.cons}</p></div>}
             </div>
