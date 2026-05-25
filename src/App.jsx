@@ -423,7 +423,7 @@ const ARTICLES = [
     {h:"Weight Gain",b:"Weight gain is the number one complaint for meds that actually work. Metformin is probably your best bet. All the usual stuff still applies but you will probably need more than that. Unless you have epilepsy or migraines, Topamax usually causes more problems than it solves for weight gain."},
     {h:"Sexual Side Effects",b:"For SSRI/SNRI-induced sexual dysfunction: try adding BuSpar (also helps with anxiety), Wellbutrin (can augment your AD but is not always a good idea), or a dopamine agonist like Mirapex or Requip — this often works better than Wellbutrin, sometimes a little too much better. Adding Remeron. Even women use Viagra, Cialis, or other erectile dysfunction meds for SSRI-induced dysfunction. Paxil and Lexapro are the worst offenders; Zoloft has the fewest problems. The drug holiday is not recommended — you risk discontinuation syndrome and the med may not work as well when you restart."},
     {h:"Lethargy and Sleepiness",b:"Try taking the meds before going to bed instead of in the morning. Provigil and Nuvigil are really effective for medication-induced lethargy. They have drug-drug interactions up the wazoo. Be very careful with caffeine if you take Luvox."},
-    {h:"Treatment Resistance",b:"If you keep switching medications because you did not want to deal with minor or temporary side effects, you may wind up treatment-resistant. A med that used to work may not work as well when you go back to it. The APA recommends waiting 6-8 weeks at full therapeutic dose before switching, and selecting something with a different mechanism of action. Patients are idiots for not sticking with meds if they are not dangerous, and doctors are idiots for continuing to prescribe one SSRI after another after two already failed."},
+    {h:"Treatment Resistance",b:"If you keep switching medications because you did not want to deal with minor or temporary side effects, _you may wind up treatment-resistant_. A med that used to work may not work as well when you go back to it. The APA recommends waiting 6-8 weeks at full therapeutic dose before switching, and selecting something with a different mechanism of action. Patients are idiots for not sticking with meds if they are not dangerous, and doctors are idiots for continuing to prescribe one SSRI after another after two already failed."},
   ]},
   {id:"talk-to-doctor",title:"How to Talk to Your Doctor",subtitle:"Making the most of 15-minute medication check-up appointments",
    sections:[
@@ -598,7 +598,10 @@ function Disclaimer(){
     <div style={s.disclaimer}>
       <p style={s.disclaimerText}>
         <strong style={{color:C.accent}}>Medical disclaimer:</strong>{" "}
-        This information is for educational purposes only. It is not medical advice. Always consult a qualified healthcare provider before starting, stopping, or changing any medication.
+        This information is for educational purposes only. It is <strong>NOT</strong> medical advice. Always consult a qualified healthcare provider before starting, stopping, or changing any medication.
+      </p>
+      <p style={{...s.disclaimerText,marginTop:"0.5rem"}}>
+        Some material may be somewhat outdated — this project was pulled from ancient internet archives. Some things have been polished but we have tried to retain Jerod's basic voice and wisdom.
       </p>
     </div>
   );
@@ -811,7 +814,7 @@ function ArticleDetailPage({id,setPage}){
       {article.sections.map((sec,i)=>(
         <div key={i} style={{marginBottom:"2rem"}}>
           {sec.h&&<h2 style={{fontFamily:"'Cormorant Garamond',Georgia,serif",fontSize:"1.3rem",fontWeight:600,color:"#e8e4f0",marginBottom:"0.75rem"}}>{sec.h}</h2>}
-          <p style={{color:C.text,fontSize:"0.95rem",lineHeight:1.85,margin:0}}>{sec.b}</p>
+          <p style={{color:C.text,fontSize:"0.95rem",lineHeight:1.85,margin:0}}>{renderText(sec.b)}</p>
         </div>
       ))}
     </div>
