@@ -497,6 +497,18 @@ const ARTICLES = [
   ]},
 ];
 
+
+// Renders text, supporting _italic_ markers
+function renderText(text){
+  if(!text) return null;
+  const parts=text.split(/(_[^_]+_)/g);
+  return parts.map((p,i)=>
+    p.startsWith("_")&&p.endsWith("_")
+      ?<em key={i}>{p.slice(1,-1)}</em>
+      :p
+  );
+}
+
 // ─── Styles ────────────────────────────────────────────────────────────────
 const s = {
   page:{fontFamily:"'DM Sans',system-ui,sans-serif",background:C.bg,color:C.text,minHeight:"100vh"},
